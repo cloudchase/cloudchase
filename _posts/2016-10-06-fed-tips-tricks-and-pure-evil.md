@@ -259,7 +259,7 @@ There are a small number of cases where !important might make a sense, but I'd s
 }
 ```
 
-## 8 - Some things cannot be animated
+## 8 - Some things cannot be animated - Using just CSS
 Some things like:
  - Automatic (or rather content driven) heights and widths. You will need to either animate max height, which can look a bit naff, or assign a height calculated in javascript.
  - display: none; Better to use a combination of visiblity, opacity, size, overflow, position absolute. Then again you could use javascript - [Live example on codepen](https://codepen.io/lee-chase/pen/xVEpVE)
