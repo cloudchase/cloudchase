@@ -262,7 +262,7 @@ There are a small number of cases where !important might make a sense, but I'd s
 ## 8 - Some things cannot be animated
 Some things like:
  - Automatic (or rather content driven) heights and widths. You will need to either animate max height, which can look a bit naff, or assign a height calculated in javascript.
- - display: none; Better to use a combination of visiblity, opacity, size, overflow, position absolute. Then again you could use javascript https://codepen.io/lee-chase/pen/xVEpVE
+ - display: none; Better to use a combination of visiblity, opacity, size, overflow, position absolute. Then again you could use javascript - [Live example on codepen](https://codepen.io/lee-chase/pen/xVEpVE)
 
 ## 9 - Percentage and scroll
 Using percentages in elements, or whole pages, that have a scoll bar can cause content to jump by 15px or more :-o
@@ -271,7 +271,7 @@ Seriously this can look a bit crap. Instead try to use sizes based on vw, vh or 
 
 ## 10
 Semantic HTML
-https://codepen.io/lee-chase/pen/YpOvEZ
+- [Live example on codepen](https://codepen.io/lee-chase/pen/YpOvEZ)
 
 ## 11 - Browser differences - Bonus round
 FED beware. Even though it is nearly 2017 there are still cross browser issues. Fun failings like IE and Edge not working with auto for one dimension of an SVG. Test here, there and everywhere.
