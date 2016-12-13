@@ -269,8 +269,7 @@ Using percentages in elements, or whole pages, that have a scoll bar can cause c
 
 Seriously this can look a bit crap. Instead try to use sizes based on vw, vh or pixels for elements that have scroll bars. This does mean you need to leave some margin space either side of your elements to allow for the scroll bar.
 
-## 10
-Semantic HTML
+## 10 - Semantic HTML
 - [Live example on codepen](https://codepen.io/lee-chase/pen/YpOvEZ)
 
 ## 11 - Browser differences - Bonus round
