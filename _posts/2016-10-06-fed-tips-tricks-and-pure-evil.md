@@ -269,6 +269,11 @@ Using percentages in elements, or whole pages, that have a scoll bar can cause c
 
 Seriously this can look a bit crap. Instead try to use sizes based on vw, vh or pixels for elements that have scroll bars. This does mean you need to leave some margin space either side of your elements to allow for the scroll bar.
 
+{% include image-tag.html name="width-size-no-scroll.png" caption="No scroll bar the width is fine" %}
+
+{% include image-tag.html name="width-size-no-scroll.png" caption="With scroll bar the width 100% is reduced causing the contents to move." %}
+
+
 ## 10 - Semantic HTML
 - [Live example on codepen](https://codepen.io/lee-chase/pen/YpOvEZ)
 
