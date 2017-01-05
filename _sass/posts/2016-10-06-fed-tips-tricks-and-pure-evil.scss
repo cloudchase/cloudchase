@@ -60,10 +60,6 @@ $dark-green: #040;
   border: 1px solid #3b3b3b;
 }
 
-.content-box, .border-box {
-  border-color: #bebebe;
-}
-
 .box-margin {
   background-color: #faa;
 }
@@ -100,20 +96,12 @@ $dark-green: #040;
   }
 }
 
-
-
-
-.border-box {
-  .box-border,
-  .box-padding,
-  .box-content {
-    background-color: #fff;
-  }
+.content-box, .border-box {
+  border-color: #bebebe;
+  background-color: #eee;
 }
 
 .border-box {
-  background-color: #eee;
-
   .box-border,
   .box-padding,
   .box-content {
@@ -122,8 +110,6 @@ $dark-green: #040;
 }
 
 .contnet-box {
-  background-color: #eee;
-
   .box-padding,
   .box-content {
     background-color: #fff;
