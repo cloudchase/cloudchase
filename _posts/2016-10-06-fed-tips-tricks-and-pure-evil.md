@@ -269,13 +269,27 @@ Using percentages in elements, or whole pages, that have a scoll bar can cause c
 
 Seriously this can look a bit crap. Instead try to use sizes based on vw, vh or pixels for elements that have scroll bars. This does mean you need to leave some margin space either side of your elements to allow for the scroll bar.
 
+The following images were created using this example on codepen
+- [Live example on codepen](http://codepen.io/lee-chase/pen/qREWqw)
+
 {% include image-tag.html name="width-size-no-scroll.png" caption="No scroll bar the width is fine" %}
 
-{% include image-tag.html name="width-size-no-scroll.png" caption="With scroll bar the width 100% is reduced causing the contents to move." %}
-
+{% include image-tag.html name="width-size-scroll.png" caption="With scroll bar the width 100% is reduced causing the contents to move." %}
 
 ## 10 - Semantic HTML
-- [Live example on codepen](https://codepen.io/lee-chase/pen/YpOvEZ)
+Even if you fail to create a full accessible site with [WAI-](https://www.w3.org/WAI/intro/), keyboard access, high contrast and all the other things you will need to about (definitely a separate blog post) the very least you should do is use semantic HTML as it is in your interest.
+
+- [Live example on codepen - NOT semantic HTML](https://codepen.io/lee-chase/pen/zNxdaE)
+
+- [Live example on codepen - semantic HTML](https://codepen.io/lee-chase/pen/YpOvEZ)
+
+Looking at the two examples, you may think that no one in their right mind would use anything other than semantic HTML. This is very much a legacy thing as HTML 5 is only four years old (feels longer). Prior to the limited number of semantic elements were either links, form elements or for display purposes.
+
+OK so I went a bit far in replacing links, buttons and headings with <div> elements but hopefully it helps emphasise how much more readible the source of the semantic html is.
 
 ## 11 - Browser differences - Bonus round
 FED beware. Even though it is nearly 2017 there are still cross browser issues. Fun failings like IE and Edge not working with auto for one dimension of an SVG. Test here, there and everywhere.
+
+My latest find, Firefox shoe horns in an element for focus. Perhaps you might also ask yourself why the vertical alignment is out if you switch between Firefox and Chrome. Perhaps I need a browser differences post.
+
+- [Live example on codepen](https://codepen.io/lee-chase/pen/RoMRpr)
