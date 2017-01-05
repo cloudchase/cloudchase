@@ -116,7 +116,7 @@ By default the size of the box is set to 'content-box', this means the height an
 
 <div class="box-model">
   <div class="content-box">
-    <div class="box-label">contnet-box</div>
+    <div class="box-label">content-box</div>
     <div class="box-margin">
       <div class="box-label">Margin</div>
       <div class="box-border">
