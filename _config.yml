@@ -14,7 +14,7 @@ description: >
   will find posts about the fluffy animals I've tried to catch along the way; ECMAScript, SCSS, Git, HTML...
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://pages.github.ibm.com/" # the base hostname & protocol for your site
-twitter_username: dr2bricks
+twitter_username: leechase99
 github_username:  lee-chase
 
 
