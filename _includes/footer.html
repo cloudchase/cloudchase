@@ -14,17 +14,15 @@
 
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
+          {% for social in site.social %}
+            {% if social.url %}
+            <li>
+                <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}"{% endif %}>
+                  <i class="fa fa-{{ social.icon }}"></i>
+                </a>
+            </li>
+            {% endif %}
+          {% endfor %}
         </ul>
       </div>
 

@@ -113,6 +113,14 @@
     margin-left: 0;
 }
 
+.social-media-list {
+  display: flex;
+}
+
+.social-media-icon {
+  margin-right: 20px;
+}
+
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
@@ -132,13 +140,8 @@
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(55% - (#{$spacing-unit} / 2));
+    width:         calc(55% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
