@@ -19,7 +19,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   In the fast moving world of front-end development,
   there is always another cloud out there for you to chase. Here you
   will find posts about the fluffy animals I've tried to catch along the way; ECMAScript, SCSS, Git, HTML...
-baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 name: 'Lee Chase'
 author: 'Lee Chase'

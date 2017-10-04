@@ -11,7 +11,7 @@
         <ul class="social-media-list">
           {% for social in site.social %}
             {% if social.url %}
-              {% if social.workonly != true or site.baseurl != "" %}
+              {% if social.workonly != true or site.baseurl %}
                 <li class="social-media-icon">
                   <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}"{% endif %}>
                     <i class="fa fa-{{ social.icon }}"></i>
