@@ -84,3 +84,9 @@ social:
     share_url: https://developer.linkedin.com/docs/share-on-linkedin
     share_title:
     share_link: "&amp;url="
+
+  - icon: slack
+    handle: lee.chase
+    url: https://ibm-front-end.slack.com/messages/lee.Chase
+    desc: Message me on slack
+    workonly: true
