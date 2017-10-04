@@ -7,13 +7,4 @@
 @import 'layout';
 @import 'syntax-highlighting';
 @import 'utils';
-
-.site-header {
-  background-image: url('/assets/cloud-top.jpg');
-  background-size: contain;
-}
-
-.site-header__hero-image {
-  width: 100%;
-  height: auto;
-}
+@import 'header';

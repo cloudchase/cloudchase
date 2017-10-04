@@ -1,85 +1,41 @@
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 title: Cloud Chase
-email: leechase@live.com
-description: >
+email: leechase99@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
   In the fast moving world of front-end development,
   there is always another cloud out there for you to chase. Here you
   will find posts about the fluffy animals I've tried to catch along the way; ECMAScript, SCSS, Git, HTML...
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://pages.github.ibm.com/" # the base hostname & protocol for your site
-twitter_username: dr2bricks
-github_username:  lee-chase
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+name: 'Lee Chase'
+author: 'Lee Chase'
 
+pagination:
+  per_page: 10
 
-# Jekyll settings
-destination:  ./_site
-plugins_dir:  _plugins
-layouts_dir:  _layouts
-data_dir:     _data
-includes_dir: _includes
-collections:
-  posts:
-    output:   true
-
-# Handling Reading
-safe:         false
-include:      [".htaccess"]
-exclude:      []
-keep_files:   [".git", ".svn"]
+# Build settings
+markdown: kramdown
+theme: minima
+highlighter: rouge
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# Filtering Content
-show_drafts: null
-limit_posts: 0
-future:      false
-unpublished: false
-
-# Plugins
-whitelist: []
-gems:
-  - octopress-autoprefixer
-  - jekyll-minifier
-
-# Conversion
-markdown:    kramdown
-highlighter: rouge
-lsi:         false
-excerpt_separator: "\n\n"
-incremental: false
-
-# Serving
-detach:  false
-port:    4000
-host:    127.0.0.1
-baseurl: "" # does not include hostname
-show_dir_listing: false
-
-# Outputting
-permalink:     date
-paginate_path: /page:num
-timezone:      null
-
-quiet:    false
-verbose:  false
-defaults: []
-
-liquid:
-  error_mode: warn
-
-# Markdown Processors
-rdiscount:
-  extensions: []
-
-redcarpet:
-  extensions: []
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
 
 kramdown:
   auto_ids:       true
@@ -90,3 +46,41 @@ kramdown:
   input:          GFM
   hard_wrap:      false
   footnote_nr:    1
+  syntax_highlighter: rouge
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+social:
+  - icon:	twitter
+    handle: leechase99
+    url:	https://twitter.com/leechase99
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+  - icon:	github
+    handle: lee-chase
+    url:	https://github.com/lee-chase
+    desc:	Find me on Github
+    share_url:
+    share_title:
+    share_link:
+
+  - icon:	linkedin
+    handle: lechase
+    url:	https://www.linkedin.com/in/lechase/
+    desc:	Find me on LinkedIn
+    share_url: https://developer.linkedin.com/docs/share-on-linkedin
+    share_title:
+    share_link: "&amp;url="

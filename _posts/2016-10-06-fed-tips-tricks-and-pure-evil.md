@@ -137,7 +137,19 @@ This seemingly quite sensible way to describe a boxes size is usually undone by 
 In addition when a border is added and / or removed then the size of the box changes, this affects the other elements positioned around it causing them to move.
 
 Coming to your rescue
-```css
+
+``` css
+.my-element {
+  box-sizing: border-box;
+  border: 5px solid transparent;
+}
+
+.my-elemnent:focus {
+  border-color: red;
+}
+```
+
+``` css
 box-sizing: border-box;
 ```
 
@@ -167,7 +179,7 @@ This time however when a border is added and remvoed the content of the element 
 
 In order to save the jiggling about that can be caused by the addition and removal of a border, you should use a transparent border. Assuming you're doing this every where
 
-```css
+``` css
 .my-element {
   box-sizing: border-box;
   border: 5px solid transparent;

@@ -1,0 +1,10 @@
+.site-header {
+  background-image: url('#{$site-base-url}/assets/images/cloud-top.jpg');
+  background-size: contain;
+  text-align: center;
+}
+
+.site-header__hero-image {
+  width: 75%;
+  height: auto;
+}

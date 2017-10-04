@@ -292,7 +292,7 @@ $elements-components-animation-map: (
 
   &::after {
     content: '';
-    background: url('/assets/posts/2016-09-01-bem-breaking-down-designs/bootstrap-carousel.png');
+    background: url('#{$site-base-url}/assets/posts/2016-09-01-bem-breaking-down-designs/bootstrap-carousel.png');
     background-size: contain;
     position: absolute;
     top: 0;
